@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/ProjekatMobilno/app/src/main/res/drawable/gradient.xml" value="0.325" />
+        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/ProjekatMobilno/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.353125" />
+        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/ProjekatMobilno/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.353125" />
+        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/ProjekatMobilno/app/src/main/res/drawable/rounded_background.xml" value="0.325" />
+        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/ProjekatMobilno/app/src/main/res/drawable/stroke_color.xml" value="0.353125" />
+        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/ProjekatMobilno/app/src/main/res/layout/activity_author.xml" value="0.3671875" />
+        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/ProjekatMobilno/app/src/main/res/layout/activity_info.xml" value="0.3671875" />
+        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/ProjekatMobilno/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/ProjekatMobilno/app/src/main/res/layout/activity_quiz.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/ProjekatMobilno/app/src/main/res/layout/my_row.xml" value="0.3671875" />
+        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/ProjekatMobilno/app/src/main/res/layout/results_activity.xml" value="0.30885416666666665" />
+        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/ProjekatMobilno/app/src/main/res/menu/menu.xml" value="0.3671875" />
+        <entry key="..\:/Users/ddjok/Desktop/Faks/mobilno poslovanje/ProjekatMobilno/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/ddjok/Desktop/Faks/mobilno poslovanje/ProjekatMobilno/app/src/main/res/layout/my_row.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

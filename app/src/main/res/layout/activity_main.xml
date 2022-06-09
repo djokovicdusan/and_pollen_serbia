@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/action_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_nature"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/pollen"
+
+        />
+
+    <Spinner
+        android:id="@+id/LocationSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_nature"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_background"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:minHeight="48dp" />
+
+
+    <EditText
+        android:id="@+id/editTxtDateAfter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LocationSpinner"
+        android:background="@drawable/rounded_input_register"
+        android:layout_marginTop="30dp"
+        android:editable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Unesite pocetni datum" />
+
+    <EditText
+        android:id="@+id/editTxtDateBefore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTxtDateAfter"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_input_register"
+        android:editable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Unesite kranji datum" />
+
+    <Button
+        android:id="@+id/btnDisplayData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTxtDateBefore"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_input_register"
+        android:text="Prikazi podatke" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPollenReport"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btnDisplayData"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/rlProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
